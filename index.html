@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home reveal">
+        <div class="home-content">
+            <h1>Hello, I'm <span class="highlight">Yaswanth Kumar</span></h1>
+            <p>I am a Freelance editor and designer helping clients create clear, polished, and visually engaging content.</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+<section id="about" class="about reveal">
+    <div class="about-container">
+
+        <div class="about-text">
+            <!-- PROFILE PICTURE ADDED HERE -->
+            <div class="about-profile-img">
+                <img src="logo.png" alt="Profile Picture">
+            </div>
+
+            <h2>About Me</h2>
+            <p>
+                I'm <strong>Yaswanth</strong>,Freelance editor and designer helping clients create clear, polished, and visually engaging content.
+            </p>
+
+            <p>
+                With experience crafting websites for imaginary clients across various industries,
+                I specialize in blending clean aesthetics with seamless interactions.
+                Outside of coding, I enjoy sketching fictional landscapes and exploring new design trends.
+            </p>
+
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>3+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-box">
+                    <h3>25+</h3>
+                    <p>Fictional Projects</p>
+                </div>
+                <div class="stat-box">
+                    <h3>10+</h3>
+                    <p>Happy Imaginary Clients</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-img">
+            <img src="https://via.placeholder.com/350x350" alt="Profile Image">
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+ <section id="projects" class="projects reveal"></section>
+ 
+<div class="project-card">
+    <h3>Projects</h3>
+
+    <!-- Vertical Demo Video -->
+    <video controls class="project-video-vertical">
+        <source src="video_1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+     <p>
+        
+    </p>
+
+    <span class="tag">HTML</span>
+    <span class="tag">CSS</span>
+    <span class="tag">JS</span>
+</div>
+
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact reveal">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p class="contact-intro">
+            If you have a video project, an idea to discuss, or need editing support, feel free to reach out. I’m always open to new professional collaborations.
+        </p>
+
+        <div class="contact-grid">
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>Email:</strong>yaswanthkumarpaturu@gmail.com </p>
+                <p><strong>Phone:</strong> +91 6301155055</p>
+                <p><strong>Location:</strong> Nellore,Andhra Pradesh,India </p>
+
+                <div class="social-links">
+                    <a href="https://x.com/yash07edits" target="_blank">Twitter </a>
+                   <!-- <a href="Link">Instagram</a>-->
+                    <a href="https://www.linkedin.com/in/yaswanth-kumar-a095ab257/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="contact-extra">
+    <p><strong>Email:</strong> yaswanthkumarpaturu@gmail.com</p>
+    <p><strong>WhatsApp:</strong> +91 6301155055</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yaswanth-kumar-a095ab257/" target="_blank">yaswanth kumar</a></p>
+</div>
+
+</section>
+
+
+
+
+    <script src="script.js"></script>
+
+    <button id="backToTop" class="back-to-top">&#8593;</button>
+
+</body>
+</html>
